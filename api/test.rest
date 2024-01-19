@@ -1,0 +1,49 @@
+###
+
+GET http://localhost:3001/
+
+###
+
+GET http://localhost:3001/contacts
+
+###
+
+DELETE http://localhost:3001/contacts/1
+
+###
+PUT http://localhost:3001/contacts/2
+Content-Type: application/json
+
+ {
+    "nom": "Joseph",
+    "prenom": "Trumpovich",
+    "portable": "911",
+    "domicile": "199",
+    "email": "",
+    "rue": "Hugo, 12",
+    "code_postal": "30500",
+    "ville": "DC"
+  }
+
+
+
+
+###
+
+POST http://localhost:3001/contacts
+Content-Type: application/json
+
+ {
+    "nom": "Pablo",
+    "prenom": "Vertigo",
+    "portable": "2578",
+    "domicile": "024567",
+    "email": "pablo@fhf.com",
+    "rue": "Lorca, 78",
+    "code_postal": "30500",
+    "ville": "Medelin"
+  }
+
+  ###
+
+ 

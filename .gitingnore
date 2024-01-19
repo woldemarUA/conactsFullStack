@@ -1,0 +1,14 @@
+.env
+# Ignore Node.js-related files in the 'api' and 'web' directories
+/api/node_modules/
+/web/node_modules/
+
+# Optional: Ignore npm debug logs and Yarn error logs
+/api/npm-debug.log
+/web/npm-debug.log
+/api/yarn-error.log
+/web/yarn-error.log
+
+# Optional: Ignore Yarn's .pnp.* files
+/api/.pnp.*
+/web/.pnp.*
